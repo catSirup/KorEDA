@@ -5,7 +5,7 @@
 wordnet은 KAIST에서 만든 [Korean WordNet(KWN)](http://wordnet.kaist.ac.kr/) 을 사용했습니다.
 
 EDA에 대한 자세한 내용은 [논문](https://arxiv.org/pdf/1901.11196.pdf)을 참조하시거나 [한글로 번역한 블로그](https://catsirup.github.io/ai/2020/04/21/nlp_data_argumentation.html)를 확인하시면 됩니다.
-___
+
 ## 결과
 
 원문 데이터
