@@ -9,7 +9,7 @@ with open("wordnet.pickle", "rb") as f:
 
 # 한글만 남기고 나머지는 삭제
 def get_only_hangul(line):
-	parseText= re.sub('/ ^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/', '', line)
+	parseText= re.compile('/ ^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/').sub('',line)
 
 	return parseText
 
